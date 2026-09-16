@@ -1,1 +1,77 @@
+/* ==========================================================================
+   Assignment 02: Base Styling & Typography
+   CMPA 3301 - Fundamentals of Computing Applications
+   ========================================================================== */
+
+/* 1. Body background and default typography */
+body {
+    background-color: #249462; /* sea green */
+    font-family: "Times New Roman", Times, serif;
+    color: #333333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px; /* Breathing room around the edges of the viewport */
+}
+
+/* 2. Main heading styling */
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    color: #000000; /* Black */
+    margin-bottom: 10px;
+}
+
+/* 3. Subheading styling */
+h2 {
+    font-family: "Times New Roman", Times, serif;
+    color: #000000; /* Black */
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+/* 4. Paragraph styling */
+p {
+    font-family: "Times New Roman", Times, serif;
+    color: #000000;
+    font-size: 1rem;
+    margin-bottom: 16px;
+    max-width: 750px; /* Improves readability across wide monitors */
+}
+
+/* 5. List and link styling */
+ul {
+    margin-bottom: 20px;
+    padding-left: 24px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+a {
+    color: #000000; /* Black */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ==========================================================================
+   Exercise 04: The CSS Box Model in Practice
+   ========================================================================== */
+
+div {
+    width: 250px;                   /* Content width */
+    height: 120px;                  /* Content height */
+    background-color: #ffeaa7;       /* Soft gold/yellow fill */
+    border: 3px solid #d63031;       /* Noticeable solid border */
+    padding: 20px;                  /* Internal space between text and border */
+    margin: 30px auto;              /* External space; 'auto' centers the box horizontally */
+    
+    /* Optional enhancements for polish */
+    font-weight: bold;
+    color: #2d3436;
+    text-align: center;
+}
 
