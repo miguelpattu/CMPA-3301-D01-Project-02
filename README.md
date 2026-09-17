@@ -2,11 +2,11 @@
 
 ## *Purpose of of the site*
 
-1. First purpose it to create a personal introduction page
+1. First purpose it to create a professional page about myself
 
-2. list my career goals
+2. include a navigation bar linking to page sections
 
-3. What will I accomplish by completing cmpa 3301
+3. create an about me with a short bio
 
 4. list what my hobbies and interests are
 
