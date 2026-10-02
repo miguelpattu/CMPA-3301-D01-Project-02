@@ -1,4 +1,3 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Project 03 - Your Professional Project Repository</title>
 
-  <!-- External CSS Link (if you use style.css) -->
+  <!-- External CSS Link -->
   <link rel="stylesheet" href="style.css">
 
   <style>
@@ -34,102 +33,63 @@
       z-index: 1000;
     }
 
-    .brand-title {
-      font-size: 1.75rem;
-      font-weight: 800;
-      color: #111827;
-      text-decoration: none;
+    main {
+      padding: 2rem 2.5rem;
     }
 
-    .brand-title:hover {
-      color: #2563eb;
+    /* Ensure bullets and indentation show clearly */
+    main ul {
+      list-style-type: disc;
+      padding-left: 2rem;
+      margin: 1rem 0;
     }
 
-    .nav-links {
-      display: flex;
-      list-style: none;
-      gap: 1.75rem;
-      margin: 0;
-      padding: 0;
+    main li {
+      margin-bottom: 0.25rem;
     }
 
-    .nav-links a {
-      text-decoration: none;
-      font-size: 1rem;
-      font-weight: 600;
-      color: #4b5563;
-      padding: 0.5rem 0.75rem;
-      border-radius: 6px;
-      transition: all 0.2s ease;
-    }
-
-    .nav-links a:hover {
-      color: #2563eb;
-      background-color: #f3f4f6;
-    }
-
-    /* Section layout and spacing */
-    section {
-      padding: 3rem 2.5rem;
-      scroll-margin-top: 80px; /* Keeps the sticky header from blocking content */
-    }
-
-    #about { background-color: #f9fafb; }
-    #goals { background-color: #ffffff; }
-    #hobbies { background-color: #f3f4f6; }
-
-    /* Box model demo */
-    .box-model-demo {
-      margin: 2rem 2.5rem;
-      padding: 20px;
-      border: 2px solid #2563eb;
-      background-color: #e0e7ff;
-      border-radius: 8px;
+    footer {
+      padding: 2rem 2.5rem;
+      border-top: 1px solid #e5e7eb;
+      background-color: #f9fafb;
     }
   </style>
 </head>
 <body>
-  <!-- Identical Shell -->
-  <header>
+
+  <header class="site-header">
     <nav>
-<a href="index.html">Back to Home</a>
-<a href="about.html">About Us</a>
+      <a href="index.html">Back to Home</a> | 
+      <a href="about.html">About Us</a>
     </nav> 
   </header>
   
-<!-- Unique Body Content -->
   <main>
     <h1>About me</h1>
     <p>Here are some fun facts about me</p>
 
-    <h2>Favortie Sports Teams</h2>
-
+    <h2>Favorite Sports Teams</h2>
     <ul>
-    <li>New York Yankees</li>
-    <li>Manchester United</li>
-    <li>New York Jets</li>
-    <li>Red Raiders Football</li>
+      <li>New York Yankees</li>
+      <li>Manchester United</li>
+      <li>New York Jets</li>
+      <li>Red Raiders Football</li>
     </ul>
 
-      <h2>Types of Food Dishes I like</h2>
-       <ul>
-    <li>Chicken Fried Steak</li>
-    <li>Chicken Pad Thai</li>
-    <li>Paella</li>
-    <li>Pesto Shimp and Penne Pasta</li>
-  </ul>
-  
+    <h2>Types of Food Dishes I like</h2>
+    <ul>
+      <li>Chicken Fried Steak</li>
+      <li>Chicken Pad Thai</li>
+      <li>Paella</li>
+      <li>Pesto Shrimp and Penne Pasta</li>
+    </ul>
+  </main>
 
-  <!-- Identical Shell -->
-   <!-- 3. Footer -->
   <footer>
     <p>&copy; 2026 Miguel Padilla and Texas Tech University for school project. All rights reserved.</p>
     <p><a href="#">Back to top &uarr;</a></p>
   </footer>
-   
-  </main>
 
 </body>
 </html>
-
 
